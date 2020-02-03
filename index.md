@@ -9,7 +9,7 @@
 
 ---
 [Sample of Kriging Work in R](/pdf/sample_presentation.pdf)
-<img src="images/kriging_zinc.png?raw=true"/>
+<img src="images/kriging_zinc.PNG?raw=true"/>
 
 ---
 
