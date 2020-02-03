@@ -8,12 +8,11 @@
 <img src="images/study_sites_cm.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Sample of Kriging Work in R](/pdf/sample_presentation.pdf)
+<img src="images/kriging_zinc.png?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
 
 ---
 
