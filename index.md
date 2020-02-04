@@ -4,11 +4,11 @@
 
 ### Project Images
 
-[Spiderwebs as Bioindicators](/sample_page)
+[Spiderwebs as Bioindicators Study Area](/sample_page)
 <img src="images/study_sites_cm.jpg?raw=true"/>
 
 ---
-[GIS work in a variety of programs](/pdf/sample_presentation.pdf)
+[A sample of my GIS work in a variety of programs](/pdf/sample_presentation.pdf)
 <img src="images/kriging_zinc.PNG?raw=true"/>
 
 ---
