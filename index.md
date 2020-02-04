@@ -4,11 +4,11 @@
 
 ### Project Images
 
-[Map of Current Study Area](/sample_page)
+[Spiderwebs as Bioindicators](/sample_page)
 <img src="images/study_sites_cm.jpg?raw=true"/>
 
 ---
-[Sample of Kriging Work in R](/pdf/sample_presentation.pdf)
+[GIS work in a variety of programs](/pdf/sample_presentation.pdf)
 <img src="images/kriging_zinc.PNG?raw=true"/>
 
 ---
