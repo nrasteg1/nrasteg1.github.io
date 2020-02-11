@@ -5,7 +5,7 @@
 ### Project Images
 
 [Spiderwebs as Bioindicators](/sample_page)
-<img src="images/study_sites_cm.jpg?raw=true"/>
+<img src="images/spiderbutt.jpg?raw=true"/>
 
 ---
 [Changing access to transit in Baltimore](/pdf/sample_presentation.pdf)
