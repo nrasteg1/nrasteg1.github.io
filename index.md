@@ -4,7 +4,7 @@
 
 ### Project Images
 
-[Spiderwebs as Bioindicators](/)
+[Spiderwebs as Bioindicators](/https://github.com/nrasteg1/nrasteg1.github.io/tree/master/spiderwebs)
 <br>
 My current research focuses on the use of spiderwebs as bioindicators for heavy metal air pollution. 
 
