@@ -4,4 +4,4 @@
 
 
 We used the cost-distance tools in ArcGIS to determine the projected change in transit times between the (then current) bus routes and the (then proposed) "Hogan plan". 
-<img src="capstone/accesibility%20by%20race.png?raw=TRUE"/>
+<img src="/images/accesibility%20by%20race.png?raw=TRUE"/>
