@@ -7,4 +7,4 @@ Traditionally, long term studies of air pollution have been limited to stationar
 
 This map was created in ArcGIS displays the sampling sites selected in the Brooklyn/Curtis Bay neighborhood of Baltimore. We hypothesize that we will find spatial autocorrelation in webs once metals are speciated, and a correlation with known pollution sources. 
 
-<img src="images/study_sites_cm.jpg"/>
+<img src="spiderwebs/study_sites_cm.jpg?raw=true"/>
