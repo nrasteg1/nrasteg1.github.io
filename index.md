@@ -4,14 +4,14 @@
 
 ### Project Images
 
-[Spiderwebs as Bioindicators](/https://github.com/nrasteg1/nrasteg1.github.io/tree/master/spiderwebs)
+[Spiderwebs as Bioindicators](spiderwebs/index)
 <br>
 My current research focuses on the use of spiderwebs as bioindicators for heavy metal air pollution. 
 
 <img src="images/spiderbutt.jpg?raw=true"/>
 
 ---
-[Changing access to transit in Baltimore](/pdf/sample_presentation.pdf)
+[Changing access to transit in Baltimore](capstone/index)
 <br>
 As an undergraduate I researched the potential effects of changed transit routes on Baltimoreans. 
 <img src="images/closeup.PNG?raw=true"/>
