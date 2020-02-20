@@ -5,6 +5,6 @@ Traditionally, long term studies of air pollution have been limited to stationar
 
 ### [Map of study area](/metal_map_baltimore)
 
-This map was created in ArcGIS displays the sampling sites selected in the Brooklyn/Curtis Bay neighborhood of Baltimore. We hypothesize that we will find spatial autocorrelation in webs once metals are speciated, and a correlation with known pollution sources. 
+Clicka above to see a web map I created in QGIS displaying the study quadrats selected in the Brooklyn/Curtis Bay neighborhood of Baltimore. It also marks point sources of heavy metal air pollution in Baltimore (as listed in the 2018 Toxic Release Inventory database) and major highways, another significant source of heavy metals.  
 
 
