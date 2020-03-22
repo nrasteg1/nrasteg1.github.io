@@ -7,7 +7,7 @@ I downloaded 2019's annual concentration by monitor from the EPA's <a href="http
 <br>
 Using QGIS, I created three buffers surrounding the lead monitors- one of 100 km, one of 50 km, one of 10 km and one of 1 km. I created four files in which I performed a one-to-many spatial join between the PM 2.5 monitors and each of the Lead monitors in whose respective buffers they fell. 
 <br>
-<img src="/images/pm2.5_graduated.PNG?raw=true"/>
+<img src="/images/pm2.5_graduated.PNG?raw=TRUE"/>
 <br>
 The dataset was exported into R, where I first performed a Moran's I test on each parameter in order to determine whether there were significant clusters of high or low measurments. While the Moran's I results for PM 2.5 measurements showed that there were signifcant clusters of high-high values (using alpha=.05), the test found no significant level of clustering of lead measurements. 
 <br>
