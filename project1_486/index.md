@@ -1,4 +1,5 @@
-#Investigating the relationship between PM 2.5 and Lead air measurements in California 
+<h1> Investigating the relationship between PM 2.5 and Lead air measurements in California </h1>
+<br>
 <br>
 I downloaded 2019's annual concentration by monitor from the EPA's <a href="https://aqs.epa.gov/aqsweb/airdata/download_files.html">Air Data</a>. I selected only the lead and PM 2.5 observations from California, and then further reduced the data by limiting points to only to the parameter measurements of PM 2.5 Local Conditions and Lead Local Conditions, to have comparable measurements, and only data where no 'events' were included (ie forest fires) to limit outliers. I then pared down the data so there was only one measurement of lead and one of PM 2.5 per point, by selecting only the machine with the most active measurement days per unique point. This left 104 points. Notably, there are about four times as many PM 2.5 monitors in this dataset as lead monitors. 
 <br>
