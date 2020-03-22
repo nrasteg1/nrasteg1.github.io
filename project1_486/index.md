@@ -6,7 +6,7 @@ I downloaded 2019's annual concentration by monitor from the EPA's <a href="http
 <br>
 <img src="/images/lead_graduated.png?raw=TRUE"/>
 <br>
-Using QGIS, I created three buffers surrounding the lead monitors- one of 100 km, one of 50 km, one of 10 km and one of 1 km. I created four files in which I performed a one-to-many spatial join between the PM 2.5 monitors and each of the Lead monitors in whose respective buffers they fell. 
+Using QGIS, I created three buffers surrounding the lead monitors- one of 50 km, one of 10 km and one of 1 km. I created three files in which I performed a one-to-many spatial join between the PM 2.5 monitors and each of the Lead monitors in whose respective buffers they fell. 
 <br>
 <br>
 <img src="/images/pm2.5_graduated.png?raw=TRUE"/>
