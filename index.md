@@ -23,10 +23,10 @@ I investigated the spatial relationships between lead and PM 2.5 measurements fr
 [<img src="images/closeup_buffer_ca.PNG?raw=true"/>](project1_486/index.md)
 ---
 
-[Tweeting about homelessness and Covid 19](project1_486/index.md)
+[Tweeting about homelessness and Covid 19](twitter/index.md)
 <br>
-I compared geotagged tweets containing the word 'homeless' to those containing the word 'covid19' for the week of 3/20/2020.
-[<img src="images/closeup_buffer_ca.PNG?raw=true"/>](project1_486/index.md)
+I compared geotagged tweets containing the word 'homeless' to those containing the word 'covid19' for the week of 3/20/2020. 
+[<img src="images/homelesscovid_screenshot.PNG?raw=true"/>](twitter/index.md)
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
