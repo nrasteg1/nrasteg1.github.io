@@ -1,6 +1,6 @@
 ## Webmap of Tweets
 
-Organizations that work with people experiencing homelessness have been particularly concerned during the recent Covid19 outbreak. Shelters are overcrowded and overcapacity, meaning that many people cannot shelter indoors during this crisis, and those that can are often in unsafe conditions that may increase the spread of the virus. I wanted to get an idea of whether or not this topic was on the public's mind during this pandemic. 
+Organizations that work with people experiencing homelessness have been particularly concerned during the recent Covid 19 outbreak. Shelters are overcrowded and overcapacity, meaning that many people cannot shelter indoors during this crisis, and those that can are often in unsafe conditions that may increase the spread of the virus. I wanted to get an idea of whether or not this topic was on the public's mind during this pandemic. 
 
 ### [Click here to see the leaflet map](/Webmap_tweets)
 
