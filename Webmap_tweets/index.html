@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        #map {
+            width: 1056px;
+            height: 851px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/Geotagged_tweets_0.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[16.45268061513773,-126.20839732500002],[54.68207911566939,-65.5045656749998]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        function pop_Geotagged_tweets_0(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GEOID'] !== null ? Autolinker.link(feature.properties['GEOID'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['NAME'] !== null ? Autolinker.link(feature.properties['NAME'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['popltnE'] !== null ? Autolinker.link(feature.properties['popltnE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['popltnM'] !== null ? Autolinker.link(feature.properties['popltnM'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['pop_shr'] !== null ? Autolinker.link(feature.properties['pop_shr'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['NUMPOINTS'] !== null ? Autolinker.link(feature.properties['NUMPOINTS'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['NUMPOINTS_covid'] !== null ? Autolinker.link(feature.properties['NUMPOINTS_covid'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['DIFFERENCE'] !== null ? Autolinker.link(feature.properties['DIFFERENCE'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['homeless-covid'] !== null ? Autolinker.link(feature.properties['homeless-covid'].toLocaleString(), {truncate: {length: 30, location: 'smart'}}) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Geotagged_tweets_0_0(feature) {
+            if (feature.properties['homeless-covid'] >= -288.000000 && feature.properties['homeless-covid'] <= -0.500000 ) {
+                return {
+                pane: 'pane_Geotagged_tweets_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(191,229,170,1.0)',
+                interactive: false,
+            }
+            }
+            if (feature.properties['homeless-covid'] >= -0.500000 && feature.properties['homeless-covid'] <= 0.500000 ) {
+                return {
+                pane: 'pane_Geotagged_tweets_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,255,191,1.0)',
+                interactive: false,
+            }
+            }
+            if (feature.properties['homeless-covid'] >= 0.500000 && feature.properties['homeless-covid'] <= 143.000000 ) {
+                return {
+                pane: 'pane_Geotagged_tweets_0',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(43,131,186,1.0)',
+                interactive: false,
+            }
+            }
+        }
+        map.createPane('pane_Geotagged_tweets_0');
+        map.getPane('pane_Geotagged_tweets_0').style.zIndex = 400;
+        map.getPane('pane_Geotagged_tweets_0').style['mix-blend-mode'] = 'normal';
+        var layer_Geotagged_tweets_0 = new L.geoJson(json_Geotagged_tweets_0, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_Geotagged_tweets_0',
+            layerName: 'layer_Geotagged_tweets_0',
+            pane: 'pane_Geotagged_tweets_0',
+            onEachFeature: pop_Geotagged_tweets_0,
+            style: style_Geotagged_tweets_0_0,
+        });
+        bounds_group.addLayer(layer_Geotagged_tweets_0);
+        map.addLayer(layer_Geotagged_tweets_0);
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'Geotagged_tweets<br /><table><tr><td style="text-align: center;"><img src="legend/Geotagged_tweets_0_MoreCovidthanHomeless0.png" /></td><td>More Covid than Homeless</td></tr><tr><td style="text-align: center;"><img src="legend/Geotagged_tweets_0_Equal1.png" /></td><td>Equal</td></tr><tr><td style="text-align: center;"><img src="legend/Geotagged_tweets_0_MoreHomelessthanCovid2.png" /></td><td>More Homeless than Covid</td></tr></table>': layer_Geotagged_tweets_0,},{collapsed:false}).addTo(map);
+        setBounds();
+        </script>
+    </body>
+</html>
