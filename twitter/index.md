@@ -2,5 +2,6 @@
 <br>
 Organizations that work with people experiencing homelessness have been particularly concerned during the recent Covid19 outbreak. Shelters are overcrowded and overcapacity, meaning that many people cannot shelter indoors during this crisis, and those that can are often in unsafe conditions that may increase the spread of the virus. I wanted to get an idea of whether or not this topic was on the public's mind during this pandemic. 
 <br>
-[Click here to see the map](/Webmap_tweets
+[Click here to see the map](/Webmap_tweets)
+<br>
 Using the rtweet package in R, I downloaded approximately 100000 tweets from users in the USA from the week of 3/20/2020 using the phrase 'covid19', and then did the same for tweets containing the phrase 'homeless'. I then filtered to only geotagged tweets, leaving about 5000 tweets on each topic. In QGIS, I used this data along with state polygons from census.gov, I created the webmap linked above to show which states had more tweets about homelessness, which states had more about covid 19, and which had equal. The vast majority of states had more tweets on Covid 19, but surprisingly there were a few states where 'homeless' was more often tweeted about this week. Tweet differences ranged from 288 more tweets about covid 19 in Florida, to 143 more tweets about homelessness in California. 
