@@ -32,6 +32,7 @@ I compared geotagged tweets containing the word 'homeless' to those containing t
 [Maryland TRI sites over time](gif/index.md)
 <br>
 I compiled data on Metal-releasing Toxic Release Inventory (TRI) sites in Maryland over a decade. 
+[<img src="images/tri_sites_2009.PNG?raw=true"/>](gif/index.md)
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
