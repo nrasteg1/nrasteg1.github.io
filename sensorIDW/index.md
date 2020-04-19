@@ -7,8 +7,12 @@ Each sensor came equipped with two different monitors, so I mapped the "A" and "
 <br>
 <img src="/images/BsensorsFinalMap.png?raw=TRUE"/>
 
-I also created a map of high-intensity Land Use zones in Baltimore city to compare to my maps of PM 2.5. Keep in mind that the most recent available land use data is from 2010. 
+Below you will find a map of land use in Baltimore city to compare to my maps of PM 2.5. Keep in mind that the most recent available land use data is from 2010. 
 
 <img src="/images/LULC_Map.png?raw=TRUE"/>
 
 This project was completed using R and QGIS. 
+
+Future steps:
+I will create IDW's using the median measurments from the same sensors. 
+I will use Average Annual Daily Traffic data to create an interpolation of high-pollution areas to compare to the sensor IDW's. 
