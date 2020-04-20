@@ -13,6 +13,6 @@ Below you will find a map of land use in Baltimore city to compare to my maps of
 
 This project was completed using R and QGIS. 
 
-Future steps:
+###Future steps:
 I will create IDW's using the median measurments from the same sensors. 
 I will use Average Annual Daily Traffic data to create an interpolation of high-pollution areas to compare to the sensor IDW's. 
