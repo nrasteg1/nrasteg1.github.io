@@ -11,8 +11,12 @@ Below you will find a map of land use in Baltimore city to compare to my maps of
 
 <img src="/images/LULC_Map.png?raw=TRUE"/>
 
+Finally, I created an IDW using Average Annual Daily Traffic (AADT) data from 2018. The highest traffic, and presumably the highest pollution areas, are the white and gray spots. Notice how small and distributed these hot spots can be. 
+
+<img src="/images/AADT_map_img.png?raw=TRUE"/>
+
+
 This project was completed using R and QGIS. 
 
 ### Future steps:
 I will create IDW's using the median measurements from the same sensors. 
-I will use Average Annual Daily Traffic data to create an interpolation of high-pollution areas to compare to the sensor IDW's. 
