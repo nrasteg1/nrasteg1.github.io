@@ -19,9 +19,14 @@ Finally, I created a map of the density of Baltimore census blocks as of the 201
 
 <img src="/images/Density.png?raw=TRUE"/>
 
-The map below shows areas that we would expect to be hotspots of air pollution based on several factors that are known to be correlated with partculate matter pollution: traffic, population density, and land use. Each individual factor was mapped, and then classified into weights. Each land use factor was weighted from 1 (low impact use) to 8 (highest impact use). Roadways were given a buffer of 100 m, a common distance used to predict the areas of high particulate pollution from car exhaust, and then classified into weights of 1-4 by quantile based on AADT of 2018. Density was classified into weights of 1-4 by quantile based on 2010's census density. All three vector layers were converted to rasters, and then multipled together to create the map of expected hotspots below. 
+The map below shows areas that we would expect to be hotspots of air pollution based on several factors that are known to be correlated with partculate matter pollution: traffic, population density, and land use. Each individual factor was mapped, and then classified into weights. Each land use factor was weighted from 1 (low impact use) to 8 (highest impact use). Roadways were given a buffer of 100 m, a common distance used to predict the areas of high particulate pollution from car exhaust, and then classified into weights of 1-4 by quantile based on AADT of 2018. Density was classified into weights of 1-4 by quantile based on 2010's census density. All three vector layers were converted to rasters, and then multipled together using the raster calculator to create the map of expected hotspots below. 
+These are only three of the known factors that contribute to air pollution, and although the weights are basically arbitrary, I think this map gives a good idea of how much air quality can vary within small distances. 
 
 
 <img src="/images/project_3.png?raw=TRUE"/>
+
+</br>
+
+Create a land use regression to obtain more accurate coefficents for each contributing factor. 
 
 This project was completed using R and QGIS. 
