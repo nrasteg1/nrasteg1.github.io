@@ -27,6 +27,7 @@ These are only three of the known factors that contribute to air pollution, and 
 
 </br>
 
+### Next Steps
 Create a land use regression to obtain more accurate coefficents for each contributing factor. 
 
 This project was completed using R and QGIS. 
