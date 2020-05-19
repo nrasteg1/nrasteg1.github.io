@@ -37,7 +37,7 @@ I compiled data on Metal-releasing Toxic Release Inventory (TRI) sites in Maryla
 ---
 [PM2.5 across Baltimore](sensorIDW/index.md)
 <br>
-I created IDWs using publicly available data from PM 2.5 sensors in Baltimore City.
+I created IDWs using publicly available data from PM 2.5 sensors in Baltimore City and compared them to spatial variables known to corrolate with PM. 
 <br>
 [<img src="/images/snipimage.PNG?raw=true"/>](sensorIDW/index.md)
 
